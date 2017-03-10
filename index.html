@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css" />
+<link href='http://fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Project3</title>
+</head>
+<body>
+
+<section class="intro frame">
+<div class="cover">
+</div>
+
+	<div class="logo">	
+	</div>
+	<div class="summary">
+		<h1>What kind of voter are you?</h1>
+<!-- 		<h3>Are you wondering which political party to vote for? Take the quiz and find out!</h3>	 -->
+	</div>
+	<div class="quiz">
+		<form action="" class="login">
+			<input type="text" name="text" id="textName" class="text" placeholder="Please enter your name" maxlength="20"/>
+			<input type="submit" name="submit" id="submit" class="submit" style"display:none;"/>	
+		</form>
+	</div>
+</section>
+
+<section class="questionnaire frame">
+	<header class="question">
+<!-- The content of this h2 tag will change at each loop -->
+		<h2 id="question">Questions</h2>
+	</header>	
+	<div class="container">
+	<!-- There is a different image that goes in every box. It will change for each loop -->
+		<div class="box box1 next" id="answer1">
+		</div>
+	</div>
+	<div class="container two">
+		<div class="box box2 next" id="answer2">
+		</div>
+	</div>
+	<div class="container three">
+		<div class="box box3 next" id="answer3">
+		</div>
+	</div>
+	<nav class="timeline">
+<!-- 	This is a "progress" bar. the icon will change at every loop in ascending order. it should not ever go back to the old icon -->
+		<ul class="nav progress"></ul>
+	</nav>
+</section>
+<section class="result frame">
+<!-- 	<h2 class="name"></h2>
+	<p class="description"></p> -->
+	<div class="card" >
+		<!-- This is where the name input post back -->
+		<h3 class="inputName">Name</h3>
+		<p class="resultText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto quo eius nemo, quae sed consectetur sequi accusamus nesciunt dignissimos vel blanditiis non. Accusantium id assumenda, vero nam vel numquam omnis!</p>
+	</div>
+		<div class="sharing clearfix">
+			<button class="submit" id="refresh">Try Again</button>
+		</div>
+</section>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="scripts/main.js"></script>
+
+</body>
+</html>
+
